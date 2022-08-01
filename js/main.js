@@ -3,16 +3,7 @@ const list = frame.querySelectorAll("article");
 const len = list.length;
 const deg = 360 / len;
 
-const names = [
-  "cardio",
-  "groove",
-  "happy",
-  "light",
-  "lily",
-  "limes",
-  "pop",
-  "swing",
-];
+const names = ["cardio", "groove", "happy", "light", "lily", "limes", "pop", "swing"];
 
 for (let i = 0; i < len; i++) {
   list[i].style.transform = `rotate(${deg * i}deg) translateY(-100vh)`;
