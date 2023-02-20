@@ -34,8 +34,8 @@
     transition: 0.5s;
   }
 
-  &::after {    
-    transform: rotate(180deg);    
+  &::after {
+    transform: rotate(180deg);
   }
 
   &:hover {
@@ -92,7 +92,6 @@
 
   &::after {
     transform: rotate(180deg);
-    
   }
 
   &:hover {
